@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+       <!--boxicon CDN link-->
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="sidebar">
+    <div class="logo_content">
+    <div class="logo">
+        <i class='bx bxl-xing'></i>
+    <div class="logo_name">AndyCole</div> 
+    </div>  
+    </div>  
+    
+      <button id="hopp" onclick="homeAlone()"><b>Hide</b> </button>
+      <button id="kopp" onclick="homeAlone()"> <b>Show</b> </button>
+  
+    <ul class="nav_list">
+        <li>
+          <a href="#">
+            <i class=' bx bx-search' class="bx-search"></i>
+            <input type="text" id="ttn" placeholder="Search">
+          </a>
+          <!--<span class="tooltip">Search</span>-->
+        </li>
+        <li>
+            <a href="#">
+              <i class='bx bx-grid-alt'></i>
+              <span class="links name">Dashboard</span>
+            </a>
+            <!--<span class="tooltip">Dashboard</span>-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-user'></i>
+              <span class="links name">User</span>
+            </a>
+             <!--<span class="tooltip">User</span>-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-message-dots'></i>
+              <span class="links name">Message</span>
+            </a>
+             <!--<span class="tooltip">Message</span>-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-pie-chart-alt-2'></i>
+              <span class="links name">Analytics</span>
+            </a>
+            <!--<span class="tooltip">Analytics</span>-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-folder-plus'></i>
+              <span class="links name">File manager</span>
+            </a>
+            <!--<span class="tooltip">File manager</span>-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-cart-add'></i>
+              <span class="links name">Order</span>
+            </a>
+                <!--<span class="tooltip">Order</span>!-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-heart'></i>
+              <span class="links name">Saved</span>
+            </a>
+              <!--<span class="tooltip">Saved</span>!-->
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-cog'></i>
+              <span class="links_name">Settings</span>
+            </a>
+            <!--<span class="tooltip">Settings</span>!-->
+          </li>   
+    </ul> 
+    <div class="profile_content">
+        <div class="profile">
+            <div class="profile_details">
+                <!--<img id="ggg" src="./gee.jpg" alt="">-->
+                <div class="name_job">
+                    <div class="name" >YAKUBU ANDREW</div>
+                    <div class="job">Web Developer </div>
+
+        </div>
+        <i class='bx bx-log-out' id="log-out" ></i>
+     </div> 
+    </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
